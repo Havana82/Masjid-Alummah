@@ -17,6 +17,7 @@
 body {
     color: #170a0a;
     background-color: #ffff;
+    height: fit-content;
 }
 
 ::selection {
@@ -41,17 +42,26 @@ body {
     padding: 10px;
     font-size: 1.5rem;
     width: 90vw;
+    position:sticky;
 }
 
 
 #tech{
     margin-top: 80px;
-    font-size: 2rem;
+    font-size: 1rem;
+    padding-bottom: 1rem;
 }
 .section-technologies {
-    margin-top: 25px;
+
     text-align: center;
-    padding-top: 10rem;
+    padding: 5rem;
+    
+}
+.prayer{
+    font-size: 2rem ;
+    line-height: 4rem
+    ;
+    
 }
 
 
@@ -60,8 +70,8 @@ body {
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: 400;
-    padding: 10px;
-    margin: 0;
+    padding: 1px;
+    margin-top: 100px;
 }
 
 a{
@@ -69,12 +79,11 @@ a{
 }
 
 .heading-stroke-only {
-    color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;
+    color: #0a0a0a;
 }
 .last-name{
     color: #ffffff;
+   
 }
 
 .row {
@@ -92,12 +101,17 @@ a{
 
 /* section: technologies */
 
-
+#sect3{
+    padding-bottom: 4rem;
+}
 
 /* section: portfolio */
 .section-portfolio {
-    margin-top: 250px;
+    margin-top: 150px;
+    padding: 10rem;
     text-align: center;
+    background-color:rgb(36, 63, 92);
+   
 }
 .link-more {
     text-decoration: none;
@@ -163,23 +177,18 @@ a{
 }
 /* section: portfolio */
 
-.tech-icon-img {
-    height: 75px;
-}
-#flask{
-    background-color: yellow;
-    border-radius: 15px;
-}
+
+
 /* section: contact */
 .section-contact {
-    margin-top: 250px;
+    margin-top: 50px;
     text-align: center;
 }
 .contact-link {
     text-decoration: none;
-    color: #fff;
+    color: #022c8d;
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,19 +196,26 @@ a{
     margin: 150px 0;
     position: relative;
     transition: 200ms;
+    
+   
 }
 .contact-link:hover {
-    opacity: 0.5;
+    text-decoration:underline;
 }
-/* section: contact */
-
+/* section: Support */
+.section-support{
+    background-color:rgb(36, 63, 92);
+    margin-top: 50px;
+    text-align: center;
+    padding:1rem;
+}
 
 
 /* section: footer */
 .footer {
     padding: 40px 60px;
     text-align: center;
-    color: #d8d8d8;
+    color: #090909;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -221,11 +237,11 @@ a{
 }
 .footer .social-link {
     text-decoration: none;
-    color: #fff;
+    color: #090909;
     outline: none;
 }
 .footer .social-link svg {
-    fill: #fff;
+    fill: #090909;
     width: 24px;
     height: 24px;
 }
@@ -239,6 +255,10 @@ a{
   justify-content: space-evenly;
   padding: 10px;
   font-size: 1.5rem;
+  position: sticky;
+  top: 0;
+  
+ 
 }
 
 
@@ -257,27 +277,6 @@ a{
 
 /* section: navbar */
 
-
-/* full screen navigation */
-.nav-full-screen {
-    width: 100%;
-    height: 100vh;
-    overflow: scroll;
-    position: fixed;
-    background: #33333333;
-    backdrop-filter: blur(40px);
-    -webkit-backdrop-filter: blur(40px);
-    z-index: 99;
-    display: none;
-}
-.nav-full-screen .nav-link {
-    font-size: 14rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    display: block;
-    margin-top: 40px;
-    margin-left: 100px;
-}
 .nav-link-active {
     color: #ffffff !important;
     position: relative;
@@ -331,7 +330,7 @@ a{
 .section-about {
   padding-top: 1rem;
     text-align: center;
-    background-color:rgb(13, 27, 43);
+    background-color:rgb(36, 63, 92);
 }
 .section-about-details {
     
@@ -339,18 +338,19 @@ a{
     width: 50%;
     align-items: center;
     margin: auto;
-    padding: 3rem;
+    padding-bottom: 8rem;
+    padding-top: 2rem;
     vertical-align:middle;
 }
 
 .section-about-texts {
-    text-align: justify;
+    text-align: left;
 
    
 }
 .section-about-texts p {
     line-height: 2rem;
-    font-size: 20px;
+    font-size: 25px;
 
 }
 /* section: about */
@@ -401,7 +401,7 @@ a{
         font-size: 2rem;
     }
     #tech{
-        font-size: 1rem;
+        font-size: 3rem;
     }
 
     .row {
@@ -450,6 +450,7 @@ a{
         gap: 40px;
         flex-wrap: wrap;
         padding: 0 20px;
+      
     }
     .portfolio-card {
         width: 100%;
@@ -496,7 +497,9 @@ a{
     
     /* section: navbar */
     .navbar {
+        display: flex;
         padding: 10px 10px;
+        
     }
     /* section: navbar */
     

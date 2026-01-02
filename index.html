@@ -12,21 +12,9 @@
 </head>
 <body>
     <main>
-    <header>
+ 
        
-    <div class="nav-full-screen" id="navFullScreen">
-        <a href="section1" onclick="closeFullScreenNav()" class="nav-link">HOME</a>
-        <a href="section2" onclick="closeFullScreenNav()" class="nav-link">AOUT</a>
-        <a href="section3" onclick="closeFullScreenNav()" class="nav-link">PROGRAMS</a>
-        <a href="section4" onclick="closeFullScreenNav()" class="nav-link">PRAYER</a>
-        <a href="section5" onclick="closeFullScreenNav()" class="nav-link">CONTACT</a>
-        <a href="section6" onclick="closeFullScreenNav()" class="nav-link">DONATE</a>
-    
-    
-    
-
    
-    </div>
 
     <!-- navbar -->
     <nav class="navbar">
@@ -36,16 +24,16 @@
             <a href="#section2" class="nav-link">ABOUT</a>
             <a href="#section3" class="nav-link">PROGRAMS</a>
             <a href="#section4" class="nav-link">PRAYER</a>
-            <a href="#section4" class="nav-link">CONTACT</a>
-            <a href="#section4" class="nav-link">DONATE</a>
+            <a href="#section5" class="nav-link">CONTACT</a>
+            <a href="#section6" class="nav-link">DONATE</a>
             
           
         </div>
         
     </nav>
 
-    <div class="image"id="section1"><img class="profile" src="images/sized.jpeg" alt=""></div>
-    </header>
+    <div class="image"id="section1"><img class="profile" src="images/realin.jpeg" alt=""></div>
+   
 
             <!-- section:about -->
         <div id="section2" class=" sections section-about" >
@@ -58,9 +46,15 @@
 
                     <div class="section-about-texts">
                         <p>
-                            We are a non-profit organization that serves Huntsville, Texas and its surrounding cities.
-                            We started in 2015, in a rented unit, and soon moved to our site in Montegomery Rd, Huntsville, Texas.
-                            We are a small community that provides prayer services, Islamic education, and events for the community.
+                           Masjid Al-Ummah was established in 2015 in Huntsville, Texas out of the need for an Islamic Center where the Muslim community can perform their religous obligations, organize Islamic historic events, and pass on true Islamic beliefs and traditions to our next generations.
+
+We initially started in a rented 500 square feet suite, and Alhamdulillah by the middle of 2016, the Society secured a property within the vicinity to fulfill these needs. The current physical location is 3516, Montgomery Rd, Huntsville, Texas 77340 which is centrally located within Huntsville.
+
+ There are separate prayer halls for men and women, clean restroom areas, and outside play area. The society enjoys a varierty of programs all year round. 
+ We are committed to serving the local Muslim community, by providing dedicated and enlightening sessions. Our mission is to cultivate a deeper connection with Allah through the beauty of Salat and fostering a sense of peace and spirituality for all who enter our sacred space.
+
+<br/>
+Masjid Al-Ummah enjoys Non-profit Tax exempt status under IRS (501 C).
                         </p>
                     </div>
         
@@ -71,9 +65,9 @@
            
         
        
-           <div id="tech"><h1 class="heading-stroke-only">PRAYER </h1></div> 
+           <div id="tech"><h1 class="heading-stroke-only">Prayer Times </h1></div> 
 
-        <div>
+        <div class="prayer">
   
             <!-- <div class="col"><img src="./assets/icons/nuxtjs.svg" alt="img" class="tech-icon-img"></div> -->
             <div class="col">Fajr - 6:00am</div>
@@ -81,56 +75,55 @@
             <div class="col">Asr -  4:00pm</div>
             <div class="col">Magrib - 7:00 pm</div>
             <div class="col">Isha - 8:00 pm</div>
-        
+            <div class="col">Jumu'ah- (Khutbah 1:30pm, Prayer 2:00pm)</div>
           
         </div>
+    </div>
     
       
        
         <!-- section: portfolio -->
-        <div  class=" sections section-portfolio"  >
-            <div class="section-headings">
-                <h1 class="heading-stroke-only">PROGRAMS</h1>
+        <div  class=" sections section-portfolio" id="section3" >
+            <div class="section-headings" id="sect3">
+                <h1 class="last-name">images From Our Masjid</h1>
                
             </div>
     
     <!-- ** -->
-            <div class="section-portfolio-grid" id="section3">
-                <a class="portfolio-card" href="https://github.com/Havana82/group-fansite">
-                    <img src="images/friends.png" alt="img">
+            <div class="section-portfolio-grid" >
+                <div class="portfolio-card" >
+                    <img src="images/jamah.jpeg" alt="img">
                     <div class="portfolio-card-details">
-                        <h4>GROUP FANSITE (A Fansite for the Friends TV show - HTML, CSS)</h4>
+                        <h4>Jumuah Prayer</h4>
                     </div>
-                </a>
-                <a class="portfolio-card" href="https://github.com/Havana82/weather-report">
-                    <img src="images/weather.png" alt="img">
+                </div>
+               <div class="portfolio-card" >
+                    <img src="images/sisters.jpeg" alt="img">
                     <div class="portfolio-card-details">
-                        <h4>WEATHER REPORT (A Weather App that reports realtime weather - HTML, CSS, JAVASCRIPT, APIS)</h4>
+                        <h4>Sisters Prayer Hall</h4>
                     </div>
-                </a>
-                <a class="portfolio-card" href="https://github.com/Havana82/react-chatlog">
-                    <img src="images/chat.png" alt="img">
+                </div>
+               <div class="portfolio-card" >
+                    <img src="images/jumahc.jpeg" alt="img">
                     <div class="portfolio-card-details">
-                        <h4>CHAT LOG (A Chat App - HTML, CSS, JAVASCRIPT, REACT)</h4>
+                        <h4>Jumuah Prayer</h4>
                     </div>
-                </a>
-                <a class="portfolio-card" href="https://inspiration-board-ijgh.onrender.com/">
-                    <img src="images/inspiration.png" alt="img">
+                </div>
+               <div class="portfolio-card" >
+                    <img src="images/shed.jpeg" alt="img">
                     <div class="portfolio-card-details">
-                        <h4>INSPIRATION BOARD (An App like an inspiration board for posting and retrieving
-                            inspirational quotes- HTML, CSS, REACT, FLASK API) </h4>
+                        <h4>Second building</h4>
                     </div>
-                </a>
-                <a class="portfolio-card" href="https://github.com/Havana82/afab-african-market">
-                    <img src="images/afab.png" alt="img">
+                </div>
+               <div class="portfolio-card">
+                    <img src="images/outside.jpeg" alt="img">
                     <div class="portfolio-card-details">
-                        <h4> Full-stack eCommerce app using React, material UI,and stripe API on frontend. 
-                            Django is used on back-end </h4>
+                        <h4> Parking Area </h4>
                     </div>
-                </a>
+                </div>
             </div>
     
-            <a href="https://github.com/havana82" target="_blank" data-text="MORE" class="link-more">MORE</a>
+        
         </div>
         <!-- section: portfolio -->
     
@@ -139,17 +132,14 @@
     
     
         <!-- section: contact -->
-        
-        <!-- section: contact -->
-    
-        <div class=" sections section-contact" id="section6"  >
+        <div class=" sections section-contact" id="section5"  >
             <div class="section-headings">
-                <h1 class="heading-stroke-only">SUPPORT OUR MASJID</h1>
+                <h1 class="heading-stroke-only">Contact</h1>
     
             </div>
     
             <div class="section-contact-links">
-                <a class="contact-link" href="mailto:halimat3000@gmail.com">
+                <a class="contact-link" href="masjidhuntsville@yahoo.com">
                 
                 masjidhuntsville@yahoo.com
                 </a>
@@ -158,11 +148,29 @@
                 Huntsville, Texas. USA</a>
             </div>
         </div>
+        <!-- section: Support -->
+    
+        <div class=" sections section-support" id="section6"  >
+            <div class="section-headings">
+                <h1 class="last-name">Support Our Masjid</h1>
+    
+            </div>
+            <div class="prayer">
+
+                <div class="col">
+                    Zelle :
+                </div>
+                <div class="col">
+                    PayPal :
+                </div>
+            </div>
+            
+        </div>
     
         <!-- section: footer -->
         <footer class="footer" id="section 5">
         
-            <p>&copy; Copyright by Halimat Aremu <span id="currentYear">2023</span></p>
+            <p>&copy; Masjid Al-Ummah</p>
             <div class="social-links">
                 <a href="https://instagram.com/halimaremu?igshid=MmIzYWVlNDQ5Yg==" class="social-link">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" /></svg>
