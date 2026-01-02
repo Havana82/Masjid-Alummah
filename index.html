@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Halimat Aremu</title>
+    <title>Masjid Al-Ummah</title>
+<div class="main-title">
+    <h2 >MASJID AL-UMMAH</h2>
+</div>  
 </head>
 <body>
     <main>
@@ -13,9 +16,13 @@
        
     <div class="nav-full-screen" id="navFullScreen">
         <a href="section1" onclick="closeFullScreenNav()" class="nav-link">HOME</a>
-        <a href="section2" onclick="closeFullScreenNav()" class="nav-link">WORK</a>
-        <a href="section3" onclick="closeFullScreenNav()" class="nav-link">ABOUT</a>
-        <a href="section4" onclick="closeFullScreenNav()" class="nav-link">CONTACT</a>
+        <a href="section2" onclick="closeFullScreenNav()" class="nav-link">AOUT</a>
+        <a href="section3" onclick="closeFullScreenNav()" class="nav-link">PROGRAMS</a>
+        <a href="section4" onclick="closeFullScreenNav()" class="nav-link">PRAYER</a>
+        <a href="section5" onclick="closeFullScreenNav()" class="nav-link">CONTACT</a>
+        <a href="section6" onclick="closeFullScreenNav()" class="nav-link">DONATE</a>
+    
+    
     
 
    
@@ -26,60 +33,69 @@
       
         <div class="nav-links">
             <a href="#section1" class="nav-link">HOME</a>
-            <a href="#section2" class="nav-link">WORK</a>
-            <a href="#section3" class="nav-link">ABOUT</a>
+            <a href="#section2" class="nav-link">ABOUT</a>
+            <a href="#section3" class="nav-link">PROGRAMS</a>
+            <a href="#section4" class="nav-link">PRAYER</a>
             <a href="#section4" class="nav-link">CONTACT</a>
+            <a href="#section4" class="nav-link">DONATE</a>
+            
           
         </div>
         
     </nav>
-    </header>
-  
-      
-        <div  class=" sections section-technologies" id="section1">
-            <div class="section-headings">
-                <h1 class="heading-stroke-only">HELLO, I AM</h1>
-                <h1 class="heading-stroke-only">HALIMAT</h1>
-                <h1 class="last-name">AREMU</h1>
-            </div>
-       
-         <div><img class="profile" src="images/profile.jpg" alt=""></div>
-           <div id="tech"><h1 class="heading-stroke-only">TECHNOLOGIES  </h1></div> 
-           <div class="row">
-            <div class="col"><img class="tech-icon-img" src="icons/react.svg" alt="img"></div>
-            <!-- <div class="col"><img class="tech-icon-img" src="./assets/icons/vue.svg" alt="img"></div> -->
-            <div class="col"><img class="tech-icon-img" src="icons/html.svg" alt="img"></div>
-            <div class="col"><img class="tech-icon-img" src="icons/css.svg" alt="img"></div>
-            <div class="col"><img class="tech-icon-img" src="icons/javascript.svg" alt="img"></div>
-            <div class="col"><img class="tech-icon-img" src="icons/react_native.svg" alt="img"></div>
-           
-        </div>
 
-        <div class="row mt-80">
+    <div class="image"id="section1"><img class="profile" src="images/sized.jpeg" alt=""></div>
+    </header>
+
+            <!-- section:about -->
+        <div id="section2" class=" sections section-about" >
+            <div class="section-headings">
+           
+                    <h2 class="last-name">About Us</h2>
+            </div>
+                
+                <div class="section-about-details">
+
+                    <div class="section-about-texts">
+                        <p>
+                            We are a non-profit organization that serves Huntsville, Texas and its surrounding cities.
+                            We started in 2015, in a rented unit, and soon moved to our site in Montegomery Rd, Huntsville, Texas.
+                            We are a small community that provides prayer services, Islamic education, and events for the community.
+                        </p>
+                    </div>
+        
+                </div>
+        </div>
+      
+        <div  class=" sections section-technologies"id="section4" >
+           
+        
+       
+           <div id="tech"><h1 class="heading-stroke-only">PRAYER </h1></div> 
+
+        <div>
   
             <!-- <div class="col"><img src="./assets/icons/nuxtjs.svg" alt="img" class="tech-icon-img"></div> -->
-            <div class="col"><img src="icons/python.svg" alt="img" class="tech-icon-img"></div>
-          
-        </div>
-
-        <div class="row mt-80">
-            <div class="col"><img src="icons/postgresql.svg" alt="img" class="tech-icon-img"></div>
-            <div class="col"><img class="tech-icon-img" src="icons/django-icon-svgrepo-com.svg" alt="img"></div>
-            <div class="col"><img id="flask" class="tech-icon-img" src="icons/flask-svgrepo-com.svg" alt="img"></div>
+            <div class="col">Fajr - 6:00am</div>
+            <div class="col">Zhur - 1:30pm</div>
+            <div class="col">Asr -  4:00pm</div>
+            <div class="col">Magrib - 7:00 pm</div>
+            <div class="col">Isha - 8:00 pm</div>
         
           
         </div>
     
-        </div>
+      
+       
         <!-- section: portfolio -->
-        <div  class=" sections section-portfolio" id="section2" >
+        <div  class=" sections section-portfolio"  >
             <div class="section-headings">
-                <h1 class="heading-stroke-only">Work</h1>
-                <h1 class="last-name">Portfolio</h1>
+                <h1 class="heading-stroke-only">PROGRAMS</h1>
+               
             </div>
     
     <!-- ** -->
-            <div class="section-portfolio-grid">
+            <div class="section-portfolio-grid" id="section3">
                 <a class="portfolio-card" href="https://github.com/Havana82/group-fansite">
                     <img src="images/friends.png" alt="img">
                     <div class="portfolio-card-details">
@@ -120,55 +136,31 @@
     
     
     
-        <!-- section:about -->
-        <div id="section3" class=" sections section-about" >
-            <div class="section-headings">
-                <h1 class="heading-stroke-only">About</h1>
-                <h1 class="last-name">Me</h1>
-            </div>
-    
-            <div class="section-about-details">
-                
-                <div class="section-about-texts">
-                    <p>
-                        Hi there 👋🏻, My name is <b>Halimat Aremu</b>, I am a Software Engineer. I create and design
-                        websites. I also make highly functional back-end applications and maintain database systems. 
-                        I enjoy designing websites and implementing functionalities. Its my passion 😃. I have a bachelors degree
-                        in pharmacy and I completed a year long intensive training in full-stack Software Development at Ada Developers
-                        Academy, Seattle, Washington.
-                    </p>
-                </div>
-    
-            </div>
-        </div>
-        <!-- section:about -->
-    
-    
     
     
         <!-- section: contact -->
-        <div class=" sections section-contact" id="section4"  >
+        
+        <!-- section: contact -->
+    
+        <div class=" sections section-contact" id="section6"  >
             <div class="section-headings">
-                <h1 class="heading-stroke-only">CONTACT</h1>
-                <h1 class="last-name">ME</h1>
+                <h1 class="heading-stroke-only">SUPPORT OUR MASJID</h1>
+    
             </div>
     
             <div class="section-contact-links">
                 <a class="contact-link" href="mailto:halimat3000@gmail.com">
                 
-                halimat3000@gmail.com
+                masjidhuntsville@yahoo.com
                 </a>
                 <!-- <a class="contact-link" href="tel:"><img src="./assets/icons/call.svg" alt="icon">+91 12345 67890</a> -->
-                <a class="contact-link" href="http://maps.google.com/">
-                Houston, Texas. USA</a>
+                <a class="contact-link" href="https://share.google/Gmz7neHPqfuPkmCJe">
+                Huntsville, Texas. USA</a>
             </div>
         </div>
-        <!-- section: contact -->
-    
-    
     
         <!-- section: footer -->
-        <footer class="footer">
+        <footer class="footer" id="section 5">
         
             <p>&copy; Copyright by Halimat Aremu <span id="currentYear">2023</span></p>
             <div class="social-links">
